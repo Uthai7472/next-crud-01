@@ -24,7 +24,7 @@ const EditProductForm = ({ id, name, image, price, category }) => {
         e.preventDefault();
 
         try {
-            const res = await fetch(`http://localhost:3001/api/products/${id}`, {
+            const res = await fetch(`https://next-crud-01.vercel.app/api/products/${id}`, {
                 method: "PUT",
                 headers: {
                     "Content-type": "application/json",

@@ -10,7 +10,7 @@ const ProductsList = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const res = await fetch("http://localhost:3001/api/products", {
+                const res = await fetch("https://next-crud-01.vercel.app/api/products", {
                     cache: 'no-store',
                 });
         

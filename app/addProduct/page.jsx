@@ -20,7 +20,7 @@ const addProduct = () => {
         }
 
         try {
-            const res = await fetch("http://localhost:3001/api/products", {
+            const res = await fetch("https://next-crud-01.vercel.app/api/products", {
                 method: "POST",
                 headers: {
                     "Content-type": "application/json"
